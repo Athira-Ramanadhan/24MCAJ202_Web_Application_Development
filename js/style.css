@@ -1,0 +1,43 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+/* Heading */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    transform: scale(1.1);
+    background-color: #2980b9;
+}

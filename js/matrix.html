@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symmetric Matrix Checker</title>
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="matrix.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Symmetric Matrix Checker</h2>
+        <p>Enter a 3×3 matrix (space-separated values, row by row):</p>
+        
+        <!-- Textarea for user input -->
+        <textarea id="matrixInput" rows="3" cols="20" placeholder="Example:&#10;1 2 3&#10;2 4 5&#10;3 5 6"></textarea>
+        
+        <!-- Error message container -->
+        <p class="error" id="errorMessage"></p>
+
+        <!-- Button to check symmetry -->
+        <button onclick="checkSymmetry()">Check Symmetry</button>
+
+        <!-- Result display -->
+        <h3 id="result"></h3>
+    </div>
+
+    <!-- Linking external JavaScript file -->
+    <script src="matrix.js"></script>
+</body>
+</html>

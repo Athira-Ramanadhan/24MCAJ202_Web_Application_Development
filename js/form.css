@@ -1,0 +1,81 @@
+/* Set background image and cover full screen */
+body {
+    background-image: url(./img.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+/* Form container */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px; 
+    padding: 35px; 
+    background-color: rgba(0, 0, 0, 0.3); 
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+}
+
+/* Form heading */
+.form h1 {
+    color: whitesmoke;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+/* Form group for labels and inputs */
+.form-group {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px; 
+}
+/* Labels aligned to the left */
+label {
+    color: white;
+    font-size: 1rem;
+    margin-bottom:7px; /* Space between label and input */
+}
+
+/* Input fields */
+.box {
+    padding: 14px; /* Slightly larger padding */
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: inset -2px -2px rgba(0, 0, 0, 0.2);
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+/* Submit button styling */
+button {
+    padding: 12px 25px;
+    margin-top: 15px;
+    width:40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -2px -2px rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color:darkcyan;
+}
