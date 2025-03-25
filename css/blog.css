@@ -1,4 +1,4 @@
-/* General body styling */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-/* Comment form container */
+
 .comment {
     background: #fff;
     padding: 20px;
